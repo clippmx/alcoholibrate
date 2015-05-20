@@ -1,11 +1,11 @@
 import requests, json
 
-url = 'http://localhost:8888/webservices/usuarios/status-amparo-express'
+#url = 'http://localhost:8888/webservices/usuarios/status-amparo-express'
 
-#url = 'http://alcoholibrate.mx/webservices/usuarios/status-amparo-express'
+url = 'http://alcoholibrate.mx/webservices/usuarios/status-amparo-express'
 
 params = {
-	'idAmparoExpress': '2'
+	'idAmparoExpress': '1'
 	}
 
 # Headers necesarios
