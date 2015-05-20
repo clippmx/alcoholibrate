@@ -6,7 +6,7 @@ url = 'http://alcoholibrate.mx/webservices/usuarios/amparo-terceros'
 
 
 params = {
-	'idUsuario' : '9',
+	'idUsuario' : '2',
 	'nombre':'Cesar',
 	'apellidos':'Alvarez',
 	'ubicacion': 'DF',
@@ -17,6 +17,6 @@ params = {
 # Headers necesarios
 headers = {'Content-Type': 'application/json'}
 
-r = requests.get(url, data=json.dumps(params), headers=headers)
+r = requests.post(url, data=json.dumps(params), headers=headers)
 
 print r.text

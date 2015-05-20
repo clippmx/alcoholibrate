@@ -8,7 +8,7 @@ url = 'http://alcoholibrate.mx/webservices/usuarios/create'
 params = {
 	'nombre':'Jonathan',
 	'apellidos':'Salinas',
-	'correo': 'jhonzya@hotmail.com',
+	'correo': 'cesar@hotmail.com',
 	'password': 'jhonzya123',
 	'telefono': '12312345',
 	'ubicacion': 'EDOMX',
@@ -20,6 +20,6 @@ params = {
 # Headers necesarios
 headers = {'Content-Type': 'application/json'}
 
-r = requests.get(url, data=json.dumps(params), headers=headers)
+r = requests.post(url, data=json.dumps(params), headers=headers)
 
 print r.text
