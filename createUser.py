@@ -2,16 +2,16 @@ import requests, json
 
 #url = 'http://localhost:8888/webservices/usuarios/create/'
 
-url = 'http://alcoholibrate.mx/webservices/usuarios/create'
+url = 'http://alcoholibrate.mx/webservices/usuarios/registro'
 
 
 params = {
-	'nombre':'Jonathan',
-	'apellidos':'Salinas',
-	'correo': 'cesar@hotmail.com',
-	'password': 'jhonzya123',
+	'nombre':'Ricardo',
+	'apellidos':'Boy',
+	'correo': 'richieboy@hotmail.com',
+	'password': 'avalos123',
 	'telefono': '12312345',
-	'ubicacion': 'EDOMX',
+	'ubicacion': 'DF',
 	'idTarjeta': '1234567890',
 	'telefono2': '12312345',
 	}
